@@ -48,68 +48,32 @@ Layers Explanation
 Controllers
 
 Handle HTTP requests and responses.
-
 Example:
-
 PrintersController
-
 UsersController
-
 DesignationController
 
 BLL (Business Logic Layer)
-
 Contains the business rules and application logic.
-
 Example:
-
 Processing printer operations
-
 Managing user data
-
 Handling designations
 
 DAL (Data Access Layer)
-
 Responsible for communication with the database.
 
 Functions include:
-
 Executing SQL queries
-
 Retrieving data
-
 Saving or updating records
 
 Models
-
 Models represent the data structure used by the application.
-
-Example:
-
 Printer
-
 User
-
 Designation
 
-📂 Project Structure
-Printers.api
-│
-├── Controllers
-│   ├── PrintersController.cs
-│   ├── UsersController.cs
-│   ├── DesignationController.cs
-│
-├── BLL
-│
-├── DAL
-│
-├── Models
-│
-├── Program.cs
-├── appsettings.json
-└── Printers.api.csproj
 ⚙ API Features
 
 ✔ Manage printers
@@ -124,6 +88,7 @@ Get All Printers
 GET /api/printers
 Get Printer by ID
 GET /api/printers/{id}
+
 Add Printer
 POST /api/printers
 Update Printer
@@ -132,26 +97,15 @@ Delete Printer
 DELETE /api/printers/{id}
 
 The API can be tested using:
-
 Swagger UI
-
 Browser (for GET requests)
 
 ⚙ Configuration
-
 The database connection string can be configured in:
-
 appsettings.json
 
-Example:
-
-"ConnectionStrings": {
-  "DefaultConnection": "Server=YOUR_SERVER;Database=PrintersDB;Trusted_Connection=True;"
-}
 👨‍💻 Author
-
 Mzwandile Byron Mngadi
-
 🎓 Advanced Diploma in ICT
 💻 Software Developer
 📧 mzwamngadi786@gmail.com
