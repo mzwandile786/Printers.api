@@ -164,5 +164,5 @@ appsettings.json
 
 💻 Software Developer
 
-📧 [mzwamngadi786@gmail.com](mailto:mzwamngadi786@gmail.com)
+📧 mzwamngadi786@gmail
 
